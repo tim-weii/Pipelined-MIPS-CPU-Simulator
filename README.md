@@ -1,6 +1,7 @@
 #  Pipelined-MIPS-CPU-Simulator
 
 ##  Overview  
+This is an **simulator** of a pipelined MIPS CPU.  
 It reads assembly-like instructions from `memory.txt`, simulates their execution through the pipeline, and writes detailed cycle-by-cycle states into `result.txt`.  
 
 The simulator models **data hazards**, **control hazards**, and **pipeline stalls**, providing a practical illustration of how real processors handle instruction-level parallelism.  
